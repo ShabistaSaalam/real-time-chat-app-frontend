@@ -44,6 +44,7 @@ npm install
 * Connects to backend via Socket.IO for real-time chat.
 
 ### Folder Structure
+```
 frontend/
 ├── public/              # Public assets
 ├── src/
@@ -55,3 +56,4 @@ frontend/
 │   └── index.js         # Entry point
 ├── package.json
 └── .env
+```
