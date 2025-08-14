@@ -56,8 +56,7 @@ const ChatContainer = () => {
                     <p className='flex flex-1 text-lg text-white items-center gap-2'>{selectedUser.fullname}
                         {onlineUsers.includes(selectedUser._id) && <span className='w-2 h-2 rounded-full bg-green-500'/> } 
                     </p>
-                    <img onClick={() => setSelectedUser(null)} src={assests.arrow_icon} alt='' className='md:hidden max-w-7' />
-                    <img src={assests.help_icon} alt='' className='max-md:hidden max-w-5' />
+                    <img onClick={() => setSelectedUser(null)} src={assests.arrow_icon} alt='' className='max-w-7' />
                 </div>
                 {/*===============Chat Area===============*/}
                 <div className='flex flex-col h-[calc(100%-120px)] overflow-y-scroll p-3 pb-6'>
